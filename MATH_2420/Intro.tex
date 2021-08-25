@@ -8,7 +8,7 @@
     \begin{itemize}
       \item Diff eq if it has derivatives in it
     \end{itemize}
-    \item $y = sin(x) + C$ has infinitely many solutions
+    \item $y = \sin x + C$ has infinitely many solutions
     \item Initial value problem
     \begin{itemize}
       \item Given diff eq, find solution satisfying additional constraints
@@ -39,16 +39,16 @@
     \begin{enumerate}
       \begin{minipage}{2in}
         \item Change of variables:\newline
-        $\frac{dy}{dx}  = cos(y-x)$\newline
+        $\frac{dy}{dx}  = \cos(y-x)$\newline
         Change y: $z = y-x$\newline
         $\frac{dz}{dx} = \frac{dy}{dx} -1$\newline
-        $\frac{dz}{dx} + 1 = cos(z)$\newline
-        Using eq: $1-cos(\alpha)= 2sin^2(\frac{\alpha}{2})$\newline
+        $\frac{dz}{dx} + 1 = \cos z$\newline
+        Using eq: $1-\cos \alpha = 2sin^2(\frac{\alpha}{2})$\newline
         $dz = (cos(z)-1)dx$\newline
-        $\int \frac{dz}{cos(z)-1} = \int dx$\newline
-        $\int \frac{dz}{2sin^2(\frac{z}{2})} = x + C$\newline
-        $cot(\frac{z}{2}) = x + C$\newline
-        $cot(\frac{y-x}{2}) = x + C$\newline
+        $\int \frac{dz}{ \cos z-1} = \int dx$\newline
+        $\int \frac{dz}{2\sin^2\frac{z}{2}} = x + C$\newline
+        $\cot \frac{z}{2} = x + C$\newline
+        $\cot \frac{y-x}{2} = x + C$\newline
       \end{minipage}
     \end{enumerate}
   \end{itemize}
