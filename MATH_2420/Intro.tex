@@ -1,0 +1,57 @@
+\begin{itemize}
+
+  \item What are diff eqs
+  \begin{itemize}
+    \item Needed to describe natural processes\
+    \item $y'(x) = cos(x)$ is an example
+    \item Solving diff eq = find unkown function
+    \begin{itemize}
+      \item Diff eq if it has derivatives in it
+    \end{itemize}
+    \item $y = sin(x) + C$ has infinitely many solutions
+    \item Initial value problem
+    \begin{itemize}
+      \item Given diff eq, find solution satisfying additional constraints
+      \item Ex: $y' = y$ ; $y=Ce^x$ ; $y(0) = 2$ ; $C=2$
+    \end{itemize}
+    \item Focus on explicit eqs
+    \item Separation of variables
+    \begin{itemize}
+      \item $M(y)\frac{dy}{dx} +N(X) = 0$
+      \item $M(y)dy = -N(x)dx$ (*dx)
+      \item Final, integrate
+    \end{itemize}
+    \item Example:\newline
+    \begin{minipage}{2in}
+      Obect is falling at rate of mg, friction($\gamma$) is pushing against it.\newline
+      $ma = mg - \gamma v$\newline
+      $a = \frac{dV}{dt}$\newline
+      $m,g,\gamma$ all consts\newline
+      $v = \int v(t)dt$\newline
+      $m=1, g=9.8=10, \gamma = 5$\newline
+      $\frac{dV}{dt} = 10-5v$\newline
+      $dV=(10-5v)dt$ \newline
+      $\int \frac{dv}{(10-5v)} = \int dt$\=\newline
+      $\frac{-1}{5} ln(10-5v) = t + C$\newline
+      $v = 2 + c*e^-5t$\newline
+    \end{minipage}
+    \item Tricks: \newline
+    \begin{enumerate}
+      \begin{minipage}{2in}
+        \item Change of variables:\newline
+        $\frac{dy}{dx}  = cos(y-x)$\newline
+        Change y: $z = y-x$\newline
+        $\frac{dz}{dx} = \frac{dy}{dx} -1$\newline
+        $\frac{dz}{dx} + 1 = cos(z)$\newline
+        Using eq: $1-cos(\alpha)= 2sin^2(\frac{\alpha}{2})$\newline
+        $dz = (cos(z)-1)dx$\newline
+        $\int \frac{dz}{cos(z)-1} = \int dx$\newline
+        $\int \frac{dz}{2sin^2(\frac{z}{2})} = x + C$\newline
+        $cot(\frac{z}{2}) = x + C$\newline
+        $cot(\frac{y-x}{2}) = x + C$\newline
+      \end{minipage}
+    \end{enumerate}
+  \end{itemize}
+
+
+\end{itemize}
